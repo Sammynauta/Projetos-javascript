@@ -1,7 +1,7 @@
 
 <h1 align="center">LANCE DE DADOS</h1>
 
-![Design preview  LANCE DE DADOS ](/assets/slide.png)
+![Design preview  LANCE DE DADOS ](/Lance-de-dados/assets/slide.png)
 
 Criando um aplicativo javascript que rola dados virtuais aleatoriamente. Este rolo de dados javascript é simples e rápido de criar. É um projeto para iniciantes.
 
