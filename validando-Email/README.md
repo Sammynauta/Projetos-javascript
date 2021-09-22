@@ -1,6 +1,12 @@
 <h1 align="center">VALIDANDO EMAIL</h1>
 
-- Neste projeto javascript, criamos um formulário validando um email onde o usuário só poderá enviar algo se estiver respeitando as restrições de email.
+![Design preview  RELOGIO DIGITAL ](/validando-Email/design/preview.png)
+
+<hr>
+
+- Neste projeto javascript, criamos um formulário validando um email onde o usuário só poderá enviar algo se estiver respeitando as regras de email.
+
+- Projeto Simples para iniciantes.
 
 ## Recursos
 
