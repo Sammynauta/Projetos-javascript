@@ -1,54 +1,88 @@
 *,
 *::before,
 *::after {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: rgb(238,174,202);
-    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(238, 174, 202);
+  background: linear-gradient(
+    90deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
 }
 
 main {
-    background-color: #fff;
-    width: 60%;
-    min-width: 400px;
-    position: absolute;
-    border-radius: 6px;
-    padding: 24px;
-    box-shadow: 0 15px 30px hsla(0, 0%, 29%, 0.527);
+  background-color: #fff;
+  width: 60%;
+  min-width: 400px;
+  position: absolute;
+  border-radius: 6px;
+  padding: 24px;
+  box-shadow: 0 15px 30px hsla(0, 0%, 29%, 0.527);
 }
 
 section {
-    position: relative;
-    width: 100%;
-   
+  position: relative;
+  width: 100%;
 }
 
 img {
-    position: relative;
-    width: 100%;
-    max-height: 450px;
-    height: 100%;
-    background-size: cover;
-    border: 3px solid black;
-    display: none;
+  position: relative;
+  width: 100%;
+  max-height: 500px;
+  height: 100%;
+  background-size: cover;
+  display: none;
+  border-radius: 5px;
 }
 
 .active {
-    display: block;
+  display: block;
 }
 
 .botoes {
-      width: 150px;
-      margin: 30px auto 0 auto;
-      display: flex;
-      align-items: center;
-      justify-content: space-around ;
+  width: 150px;
+  margin: 30px auto 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.botoes button {
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    border: 3px solid #94bbe9;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+#prev, #next {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    background-color: #5e9be0;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 0 10px 20px hsla(0, 0%, 22%, 0.651);
+    top: 50%;
+    color: #fff;
+}
+
+#prev {
+    left: 5px;
+}
+#next {
+    right: 5px;
 }
