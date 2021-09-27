@@ -66,6 +66,10 @@ img {
     background-color: transparent;
 }
 
+.botoes button:nth-child(1) {
+  background-color: #5e9be0;
+}
+
 #prev, #next {
     width: 45px;
     height: 45px;
@@ -77,7 +81,18 @@ img {
     font-size: 18px;
     box-shadow: 0 10px 20px hsla(0, 0%, 22%, 0.651);
     top: 50%;
+    cursor: pointer;
     color: #fff;
+    transition: all 0.3s ease;
+    transform: scale(1);
+}
+
+#prev:hover, #next:hover{
+  background-color: #4779b3;
+}
+
+#prev:active, #next:active {
+  transform: scale(0.93);
 }
 
 #prev {
