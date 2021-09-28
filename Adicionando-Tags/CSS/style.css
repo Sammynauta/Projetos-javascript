@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #5a5a5a;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #FE8F8F;
+}
+
+main {
+    width: 490px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px 25px 20px;
+}
+
+section :where(.titulo, li, li i, .detalhes) {
+    display: flex;
+    align-items: center;
+}
+
+.conteudo {
+    margin: 10px 0;
+}
+
+.conteudo p {
+    font-size: 14px;
+}
+
+.conteudo ul {
+    display: flex;
+    padding: 7px;
+    border: 1px solid #8d8d8d;
+    border-radius: 5px;
+}
+
+.conteudo ul  li{
+    list-style: none;
+    background: #dadada;
+    padding: 5px 10px;
+    margin: 4px;
+  
+}
+.conteudo ul li i {
+    margin-left: 4px;
+    display: flex;
+    font-size: 13px;
+    height: 15px;
+    width: 15px;
+    background: #a7a7a7;
+    border-radius: 50%;
+    justify-content: center;
+    color: #585858;
+}
+.conteudo ul input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.detalhes {
+    justify-content: space-between;
+}
+
+.detalhes button {
+    border-radius: 5px;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 16px;
+    background: #FE8F8F;
+    font-size: 14px;
+    border: none;
+}
