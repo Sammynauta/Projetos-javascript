@@ -39,6 +39,7 @@ section :where(.titulo, li, li i, .detalhes) {
     padding: 7px;
     border: 1px solid #8d8d8d;
     border-radius: 5px;
+    flex-wrap: wrap;
 }
 
 .conteudo ul  li{
@@ -46,6 +47,7 @@ section :where(.titulo, li, li i, .detalhes) {
     background: #dadada;
     padding: 5px 10px;
     margin: 4px;
+    cursor: pointer;
   
 }
 .conteudo ul li i {
@@ -80,4 +82,12 @@ section :where(.titulo, li, li i, .detalhes) {
     background: #FE8F8F;
     font-size: 14px;
     border: none;
+    transition: 0.5s ease;
+    transform: scale(1);
+}
+.detalhes button:hover {
+    background: #cf6767;
+}
+.detalhes button:active {
+    transform: scale(0.95);
 }
