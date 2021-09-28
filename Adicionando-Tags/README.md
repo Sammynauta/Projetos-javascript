@@ -1,6 +1,6 @@
 <h1 align="center">ADICIONANDO TAGS</h1>
 
-![Design preview  RELOGIO DIGITAL ](/Adicionando-tags/DESIGN/preview.png)
+![Design preview  ADICIONANDO TAGS ](/Adicionando-tags/DESIGN/preview.png)
 
 <hr>
 
