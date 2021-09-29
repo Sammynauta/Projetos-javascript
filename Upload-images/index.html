@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Upload-images/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <title>Preview upload image</title>
+</head>
+<body>
+    <section>
+        <div class="caixa">
+            <figure>
+                <img src="" alt="">
+            </figure>
+            <div class="caixa-img">
+                <i id="upload" class="fas fa-cloud-upload-alt"></i>
+                <span id="text" >Nenhum arquivo selecionado, ainda. </span>
+            </div>
+            <i id="close" class="fas fa-times"></i>
+            <span class="file-name">Nome do arquivo</span>
+        </div>
+        <input id="default-btn" type="file">
+        <button onclick="defaultbtnAtivo()">Escolha uma imagem</button>
+    </section>
+    <script src="/Upload-images/js/script.js"></script>
+</body>
+</html>
