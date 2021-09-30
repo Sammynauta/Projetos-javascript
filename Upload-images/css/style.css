@@ -31,6 +31,10 @@ section .caixa {
     justify-content: center;
 }
 
+.caixa.active {
+    border: none;
+}
+
 .caixa figure {
     position: absolute;
     height: 100%;
@@ -65,6 +69,15 @@ section .caixa {
     top: 10px;
     color: #4d5ef0;
     cursor: pointer;
+    display: none;
+}
+
+.caixa #close:hover {
+    color: #fa4444;
+}
+
+.caixa.active:hover #close {
+    display: block
 }
 
 .caixa .file-name {
@@ -74,6 +87,11 @@ section .caixa {
     background: #4d5ef0;
     color: #fff;
     padding: 5px 0;
+    display: none;
+}
+
+.caixa.active:hover .file-name {
+    display: block;
 }
 
 input {
@@ -101,6 +119,5 @@ button:hover {
 }
 
 button:active {
-    transform: scale(0.93);
- 
+    transform: scale(0.93); 
 }
